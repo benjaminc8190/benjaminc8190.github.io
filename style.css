@@ -5,7 +5,7 @@ html, body {
 body {
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
-    color: #f5f6f7;
+    color: #31F586;
 }
 
 p {
@@ -13,7 +13,7 @@ p {
 }
 
 a {
-    color: #2e72a1;
+    color: #FF1E07;
 }
 
 #logo, .project-img {
