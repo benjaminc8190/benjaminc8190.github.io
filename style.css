@@ -30,6 +30,10 @@ a {
     height: 75px;
 }
 
+#more {
+    color: red;
+}
+
 .margin {
     margin-bottom: 45px;
 }
