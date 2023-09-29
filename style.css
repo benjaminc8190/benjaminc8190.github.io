@@ -31,7 +31,7 @@ a {
 }
 
 #more {
-    color: red;
+    color: blue;
 }
 
 .margin {
@@ -44,8 +44,8 @@ a {
 }
 
 .bg-2 {
-    background-color: #2e72a1; /* Blue */
-    color: #ffffff;
+    background-color: #f0f7da; /* Green */
+    color: #234d20;
 }
 
 .card {
