@@ -65,12 +65,9 @@ a {
     transition-timing-function: ease;
 }
 
-.nav-link:hover {
-    font-size: 30px;
-}
-
 .navbar-nav li a:hover {
     color: #2e72a1 !important;
+    font-size: 17px;
 }
 
 .darkening-green {
