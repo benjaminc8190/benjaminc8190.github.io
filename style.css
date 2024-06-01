@@ -30,10 +30,6 @@ a {
     height: 75px;
 }
 
-#more {
-    color: blue;
-}
-
 .margin {
     margin-bottom: 45px;
 }
@@ -80,8 +76,31 @@ a {
     margin-bottom: 0;
     font-size: 12px;
     letter-spacing: 5px;
+    transition: width 2s;
+    transition-timing-function: ease;
+}
+
+.nav-link:hover {
+    font-size: 30px;
 }
 
 .navbar-nav li a:hover {
     color: #2e72a1 !important;
+}
+
+.darkening-green {
+    background-color: #001e00
+}
+
+.logo-color {
+    background-color: #3da200
+}
+
+.mid-color {
+    background-color: #005a00
+
+}
+
+.footer-color {
+    background-color: #434b3e
 }

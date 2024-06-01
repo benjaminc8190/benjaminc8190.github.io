@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="../style.css" type="text/css">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
@@ -18,7 +18,7 @@
 
     <!-- Navbar -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark darkening-green py-3">
         <a class="navbar-brand owner-name" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,22 +33,37 @@
                     <a class="nav-link" href="#" id="github" target="_blank">Github</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#skills">Skills</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <!-- First Container -->
-    <div class="container-fluid bg-1 text-center">
+    <!-- logo Container -->
+    <div class="container-fluid logo-color text-center">
         <!--<h1 class="margin">Name</h1>-->
         <img src="img/logo.png" class="img-fluid" alt="Logo" id="logo">
     </div>
 
-    <!-- Second Container -->
-    <div class="container-fluid bg-2 text-center" id="projects">
-        <h3 class="margin">Projects</h3>
-        <p id="more">More coming soon!</p>
+        <!-- about me Container -->
+        <div class="container-fluid text-center mid-color">
+            <h3 class="margin">About Me</h3><br>
+            <div class="row">
+                <div class="col-sm-4">
+                    <p>I'm currently a student of the cohort of 2025 of HSTAT(High School of Telecommunication Arts and Technology).</p>
+                </div>
+                <div class="col-sm-4">
+                    <p>I really love engineering!</p>
+                </div>
+                <div class="col-sm-4">
+                    <p>Commited to SEP(Software Engineering Program) of HSTAT currently in the cohort of 2025.</p>
+                </div>
+            </div>
+        </div>
+
+    <!-- Skills Container -->
+    <div class="container-fluid darkening-green text-center" id="skills">
+        <h3 class="margin">Skills</h3>
         <div class="container">
             <div class="row">
 
@@ -65,72 +80,36 @@
                 </div>
                 -->
 
-                 <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Movie Webpage</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">10th Grade</h6>
-                            <p class="card-text">I used the skills I've recently learned to make a website about a movie.</p>
-                            <a href="projects/movie-webpage.html" class="card-link">More</a>
+                <!-- HTML and CSS -->
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">HTML and CSS</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">10th Grade</h6>
+                                <p class="card-text">I have learned HTML and CSS from the SEP10 course, and here are my projects!</p>
+                                <a href="pages-skills/html-and-css.html" class="card-link">More</a>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Attack of the Spanish Teachers</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">10th Grade</h6>
-                            <p class="card-text">I used what I learned to practice linking files.</p>
-                            <a href="projects/cyoa.html" class="card-link">More</a>
+                <!-- Javascript -->
+                    <div class="col-sm-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Javascript</h5>
+                                <h6 class="card-subtitle mb-2 text-muted">11th Grade</h6>
+                                <p class="card-text">Throughout the course of SEP11, I have been learning about Javascript and React</p>
+                                <a href="pages-skills/javascript.html" class="card-link">More</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Freedom Project</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">10th Grade</h6>
-                            <p class="card-text">The “Freedom Project” for SEP10 is all about making an informative website on benefits and technology of Gambling.</p>
-                            <a href="projects/freedom-project.html" class="card-link">More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Madlib project</h5>
-                            <h6 class="card-subtitle mb-2 text-muted">11th Grade</h6>
-                            <p class="card-text">I've recently been learning some javascript and wanted to make a madlib story with it.</p>
-                            <a href="#" class="card-link">Coming soon</a>
-                        </div>
-                    </div>
-                </div>
 
-
-
-            </div>
-        </div>
-    </div>
-
-    <!-- Third Container (Grid) -->
-    <div class="container-fluid bg-3 text-center">
-        <h3 class="margin">About Me</h3><br>
-        <div class="row">
-            <div class="col-sm-4">
-                <p>I'm a student at HSTAT.</p>
-            </div>
-            <div class="col-sm-4">
-                <p>I'm interested in engineering(software and hardware).</p>
-            </div>
-            <div class="col-sm-4">
-                <p>benjaminc8190@hstat.org</p>
             </div>
         </div>
     </div>
 
     <!-- Footer -->
-    <footer class="container-fluid bg-4 text-center">
+    <footer class="container-fluid footer-color text-center">
         <a href="#" target="_blank" id="fork"><img src="img/fork.png"></a><br>
         <a href="https://hstatsep.github.io" target="_blank"><img src="https://hstatsep.github.io/img/hstatsep-logo-small.png" id="sep"></a>
     </footer>
