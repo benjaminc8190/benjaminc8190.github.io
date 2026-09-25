@@ -5,7 +5,8 @@ html, body {
 body {
     font: 20px Montserrat, sans-serif;
     line-height: 1.8;
-    color: #31F586;
+    background: #071A0D;
+    color: #E8F5EC;
 }
 
 p {
@@ -13,7 +14,11 @@ p {
 }
 
 a {
-    color: #FF1E07;
+    color: #34D399;
+}
+
+a:hover {
+    color: #86B89A;
 }
 
 #logo, .project-img {
@@ -70,18 +75,48 @@ a {
     font-size: 17px;
 }
 
+
+
 .darkening-green {
-    background-color: #001e00
+    background-color: #071A0D;
 }
 
 .logo-color {
-    background-color: #3da200
+    background-color: #12351D;
 }
 
 .mid-color {
-    background-color: #005a00
+    background-color: #0B2614;
+}
+
+.skills-color {
+    background-color: #12351D;
 }
 
 .footer-color {
-    background-color: #434b3e
+    background-color: #020B05;
 }
+
+/* 
+┌──────────────────────────────┐
+│ NAVBAR                       │ #071A0D
+├──────────────────────────────┤
+│                              │
+│ HERO                         │ #12351D
+│                              │
+├──────────────────────────────┤
+│                              │
+│ ABOUT ME                     │ #0B2614
+│                              │
+├──────────────────────────────┤
+│                              │
+│ SKILLS                       │ #12351D
+│                              │
+├──────────────────────────────┤
+│                              │
+│ PROJECTS                     │ #0B2614
+│                              │
+├──────────────────────────────┤
+│ FOOTER                       │ #020B05
+└──────────────────────────────┘
+*/
